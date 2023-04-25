@@ -5,7 +5,11 @@ body {
 	background-size: 200% 200%;/*サイズを大きくひきのばす*/
 	animation: bggradient 20s ease infinite;
 }
-
+div.sample {
+width:200px; height:100px;
+margin:5px; padding:10px; border:1px solid black;
+background-color:lightgray;
+}
 @keyframes bggradient{
 	0% {
 		background-position: 0% 50%;
