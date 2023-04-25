@@ -6,7 +6,7 @@ body {
 	animation: bggradient 20s ease infinite;
 }
 .title{
-line-height:
+line-height:80%;
 }
 @keyframes bggradient{
 	0% {
