@@ -5,7 +5,9 @@ body {
 	background-size: 200% 200%;/*サイズを大きくひきのばす*/
 	animation: bggradient 20s ease infinite;
 }
-
+.title{
+line-height:
+}
 @keyframes bggradient{
 	0% {
 		background-position: 0% 50%;
