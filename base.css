@@ -19,3 +19,13 @@ line-height:80%;
 		background-position: 0% 50%;
 	}
 }
+#wrapper{
+/*描画されるテキストを中央寄せにする*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+#particle{
+    width:75%;
+	vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
+}
