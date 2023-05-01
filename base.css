@@ -5,12 +5,7 @@ body {
 	background-size: 200% 200%;/*サイズを大きくひきのばす*/
 	animation: bggradient 20s ease infinite;
 }
-.list-centered {
-  text-align: center;
-}
-.list-centered li {
-  display: inline-block;
-}
+
 .title{
 line-height:80%;
 }
