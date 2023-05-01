@@ -5,7 +5,6 @@ body {
 	background-size: 200% 200%;/*サイズを大きくひきのばす*/
 	animation: bggradient 20s ease infinite;
 }
-
 .title{
 line-height:80%;
 }
@@ -30,3 +29,10 @@ line-height:80%;
     width:75%;
 	vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
 }
+
+.list-centered {
+  text-align: center;
+}
+.list-centered li {
+  display: inline-block;
+}s
