@@ -5,6 +5,7 @@ body {
 	background-size: 200% 200%;/*サイズを大きくひきのばす*/
 	animation: bggradient 20s ease infinite;
 	background-attachment: fixed;
+	position:fixed;
 }
 .title{
 line-height:80%;
