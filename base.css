@@ -12,11 +12,17 @@ line-height:80%;
 	0% {
 		background:#ff70a8
 	}
+	25% {
+		background:#ece7e6
+	}
 	50% {
+		background:#fcf632
+	}
+	75% {
 		background:#ece7e6
 	}
 	100% {
-		background:#fcf632
+		background:#ff70a8
 	}
 }
 #wrapper{
