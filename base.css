@@ -10,7 +10,7 @@ line-height:80%;
 }
 @keyframes bggradient{
 	0% {
-		background:#ff70a8
+		background:#ffb6c1
 	}
 	25% {
 		background:#ece7e6
@@ -22,7 +22,7 @@ line-height:80%;
 		background:#ece7e6
 	}
 	100% {
-		background:#ff70a8
+		background:#ffb6c1
 	}
 }
 #wrapper{
