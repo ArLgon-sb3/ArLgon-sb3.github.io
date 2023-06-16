@@ -1,52 +1,43 @@
-body {
-width: 100%;
-height: 100vh;
-background: linear-gradient(45deg, #ffb6c1, #ece7e6, #fcf632);
-/グラデーションを定義/
-background-size: 200% 200%;
-/サイズを大きくひきのばす/
-animation: bggradient 20s ease infinite;
+body{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(45deg, #ffb6c1,#ece7e6,#fcf632);/*グラデーションを定義*/
+	background-size: 200% 200%;/*サイズを大きくひきのばす*/
+	animation: bggradient 20s ease infinite;
 }
-
-.title {
-line-height: 80%;
+.title{
+line-height:80%;
 }
-
-@keyframes bggradient {
-0% {
-background: #ffb6c1;
+@keyframes bggradient{
+	0% {
+		background:#ffb6c1
+	}
+	25% {
+		background:#ece7e6
+	}
+	50% {
+		background:#fcf632
+	}
+	75% {
+		background:#ece7e6
+	}
+	100% {
+		background:#ffb6c1
+	}
 }
-25% {
-background: #ece7e6;
+#wrapper{
+/*描画されるテキストを中央寄せにする*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
-50% {
-background: #fcf632;
+#particle{
+    width:75%;
+	vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
 }
-75% {
-background: #ece7e6;
-}
-100% {
-background: #ffb6c1;
-}
-}
-
-#wrapper {
-/描画されるテキストを中央寄せにする/
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-#particle {
-width: 75%;
-vertical-align: bottom;
-/canvasタグ下に余白が生まれるのを防ぐ/
-}
-
 .list-centered {
-text-align: center;
+  text-align: center;
 }
-
 .list-centered li {
-display: inline-block;
-}
+  display: inline-block;
+}s
