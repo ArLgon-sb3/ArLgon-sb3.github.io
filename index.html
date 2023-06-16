@@ -2,22 +2,6 @@
 <title>ArLgon.sb3</title>
 <html lang="ja">
 <head>
-<script>
-function enableMute() {
-  bgm.muted = true;
-}
-
-function disableMute() {
-  bgm.muted = false;
-}
-
-$(function(){
-  $('#Audio-Control button').click(function(){
-    $('#Audio-Control button').toggleClass('active');
-  });
-});
-
-</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
@@ -83,7 +67,7 @@ font-display: swap;
   <footer>
 <div id="Audio-Control">
   <audio id="bgm" preload autoplay loop muted>
-      <source src="bgm.mp3" type="audio/mpeg">
+      <source src="bgm.wav" type="audio/wav">
   </audio>
   <button onclick="enableMute()" class="off active" type="button">OFF</button>
   <button onclick="disableMute()" class="on" type="button">ON</button>
