@@ -1,84 +1,52 @@
-body{
-	width: 100%;
-	height: 100vh;
-	background:linear-gradient(45deg, #ffb6c1,#ece7e6,#fcf632);/*グラデーションを定義*/
-	background-size: 200% 200%;/*サイズを大きくひきのばす*/
-	animation: bggradient 20s ease infinite;
+body {
+width: 100%;
+height: 100vh;
+background: linear-gradient(45deg, #ffb6c1, #ece7e6, #fcf632);
+/グラデーションを定義/
+background-size: 200% 200%;
+/サイズを大きくひきのばす/
+animation: bggradient 20s ease infinite;
 }
-.title{
-line-height:80%;
+
+.title {
+line-height: 80%;
 }
-@keyframes bggradient{
-	0% {
-		background:#ffb6c1
-	}
-	25% {
-		background:#ece7e6
-	}
-	50% {
-		background:#fcf632
-	}
-	75% {
-		background:#ece7e6
-	}
-	100% {
-		background:#ffb6c1
-	}
+
+@keyframes bggradient {
+0% {
+background: #ffb6c1;
 }
-#wrapper{
-/*描画されるテキストを中央寄せにする*/
-	display:flex;
-	justify-content: center;
-	align-items: center;
+25% {
+background: #ece7e6;
 }
-#particle{
-    width:75%;
-	vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
+50% {
+background: #fcf632;
+}
+75% {
+background: #ece7e6;
+}
+100% {
+background: #ffb6c1;
+}
+}
+
+#wrapper {
+/描画されるテキストを中央寄せにする/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#particle {
+width: 75%;
+vertical-align: bottom;
+/canvasタグ下に余白が生まれるのを防ぐ/
 }
 
 .list-centered {
-  text-align: center;
+text-align: center;
 }
+
 .list-centered li {
-  display: inline-block;
-}s
-
-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-  appearance: none;
-}
-
-#Audio-Control {
-  overflow: hidden;
-}
-
-#Audio-Control button {
-  border: 1px solid #ccc;
-  width: 40px;
-  float: left;
-  padding: 5px 0;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
-
-#Audio-Control button.on {
-  border-left: none;
-}
-
-#Audio-Control button.off {
-  border-right: none;
-}
-
-#Audio-Control button.active {
-  background: #ccc;
-}
-
-#Audio-Control button:not(.active):hover {
-  background: rgba(204, 204, 204, 0.3);
+display: inline-block;
 }
