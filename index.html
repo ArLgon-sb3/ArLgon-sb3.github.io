@@ -32,6 +32,28 @@
 <style type="text/css">
 font-display: swap;
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
 <meta name="google-site-verification" content="jjyRagPlSczg_cJtfRORSD91Q1EDU8fiQBRdL5qTCNs" />
 </head>
 <body style="margin:0px;">
@@ -64,6 +86,7 @@ font-display: swap;
 <script src="js/particleText.js"></script><!--https://github.com/55Kaerukun/particleText.jsからダウンロードして使用-->
 <script src="particletext.js"></script>
 </div>
+<div class="pagetop">↑</div>
 </body>
 </html>
   <footer>
