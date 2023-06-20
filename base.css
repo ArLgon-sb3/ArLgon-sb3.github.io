@@ -45,25 +45,31 @@ line-height:80%;
 .list-centered li {
   display: inline-block;
 }
-
-/* 上に戻るボタン */
-.pagetop {
-	color: #fff;
-	background-color: rgba(0,0,0,0.3);
-	text-decoration: none;
-	display: none;
-	position: fixed;
-	bottom: 1rem;
-	right: 1rem;
-	font-size: 1.5rem;
-	width: 3.3rem;
-	height: 3.3rem;
-	line-height: 3.3rem;
-	border-radius: 3.3rem;
-	text-align: center;
-	cursor: pointer;
+#pagetop {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    color: #ffffff; /* 文字色 */
+    font-size:0px;
+    text-decoration:none;
+    background: linear-gradient(
+    -45deg,
+    #fff 25%,
+    #f4f4ed 25%, #f4f4ed 50%,
+    #fff 50%, #fff 75%,
+    #f4f4ed 75%, #f4f4ed
+  );
+  background-size: 0px 0px; 
+  border-radius: 50%; /* ボタンの丸み */
+  opacity: 1.0; /* ボタンの透明度 */
+  z-index: 99;
 }
-
-.pagetop:hover {
-	text-decoration: none;
+/* ページトップへ戻るボタン：ホバー時 */
+#pagetop:hover {
+    color: #ffffff; /* 文字色 */
+    opacity: 0.7; /* ボタンの透明度 */
+}
+#pagetop img {
+ width:300px;
+ height:300px;
 }
