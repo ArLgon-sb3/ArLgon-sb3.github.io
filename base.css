@@ -75,11 +75,11 @@ line-height:80%;
 }
 @media only screen and (max-width: 750px) {
 #pagetop img {
- width:26px;
- height:60px;
+ width:26px !important;
+ height:60px !important;
 }
 
-*{padding:26px;}
+*{padding:26px !important;}
 	
 
 
